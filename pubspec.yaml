@@ -1,0 +1,19 @@
+
+name: algokey
+description: A password app that generates a key based on date and time.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: any
+  crypto: any
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
+    
